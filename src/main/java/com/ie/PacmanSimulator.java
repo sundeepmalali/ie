@@ -270,7 +270,7 @@ public class PacmanSimulator {
             isValid = false;
         }
         if (!isNumeric(coords[0].trim()) || !isNumeric(coords[1].trim())) {
-            System.out.println(String.format("Co-ordinates [%s, %s] are not numeric. Ignoring PLACE command",
+            System.out.println(String.format("Co-ordinates [%s, %s] are not valid. Ignoring PLACE command",
                                coords[0].trim(), coords[1].trim()));
             isValid = false;;
         } else {
