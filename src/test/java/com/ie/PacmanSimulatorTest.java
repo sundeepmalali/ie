@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.ie;
 
 import static org.junit.Assert.assertTrue;
@@ -18,36 +15,28 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
+ * Unit tests for {@code com.ie.PacmanSimulator}
+ *  
  * @author sundeep
  *
  */
 public class PacmanSimulatorTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    
     private Stream<String> inputs;
     
-    /**
-     * @throws java.lang.Exception
-     */
     @Before
     public void setUp() throws Exception {
         System.setOut(new PrintStream(outContent));
         inputs = Files.lines(Paths.get("src/test/resources/Pacman.txt"));
     }
 
-    /**
-     * @throws java.lang.Exception
-     */
     @After
     public void tearDown() throws Exception {
         inputs.close();
         System.setOut(null);
     }
 
-    /**
-     * Test method for {@link com.ie.PacmanSimulator#runPacmanSimulator(java.util.List)}.
-     */
     @Test
     public final void testRunPacmanSimulator() {
         inputs.filter(s -> s != null).forEach(s -> process(s));

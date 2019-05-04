@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 /**
  * A simple command line based Pacman simulator
+ * 
  * Details available at - https://github.com/ie/Code-Challenge-1
  * 
  * @author sundeep
