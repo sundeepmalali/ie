@@ -222,7 +222,7 @@ public class PacmanSimulator {
             } else {
                 cmd = token;
             }
-            if(!isValidCommand(cmd)) {
+            if (!isValidCommand(cmd)) {
                 System.out.println("Ignoring invalid command : " + token);
                 continue;
             }

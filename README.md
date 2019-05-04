@@ -1,6 +1,6 @@
 # Pacman Simulator
 
-This maven project has the implementation logic of a basic Pacman simulator.
+This project has the implementation logic of a basic Pacman simulator.
 
 The details of the implementation are here - [https://github.com/ie/Code-Challenge-1](https://github.com/ie/Code-Challenge-1)
 
