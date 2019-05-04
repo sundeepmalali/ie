@@ -1,0 +1,17 @@
+place 0,0,north ::: move ::: report
+place 0,0,north ::: left ::: report
+PLACE 1,2,EAST ::: MOVE ::: MOVE ::: LEFT ::: MOVE ::: REPORT
+place 1,1,east ::: move ::: move ::: left ::: right ::: move ::: move ::: left ::: place 3,4,south ::: move ::: left ::: left ::: move ::: report
+place 2 , 3 , south ::: report
+PlAcE 3 , 1 , EaST ::: MOve ::: REPOrt
+place 6,6,north ::: move ::: left ::: place 2,1, east ::: move ::: left ::: move ::: right ::: move ::: report
+test ::: place 0,0,EAst ::: move ::: left ::: invalid ::: move ::: report
+place 4,4,north ::: move ::: move ::: left ::: left ::: move ::: move ::: report
+
+place 6,6,north ::: move ::: left ::: report
+place a,b,north ::: move ::: move ::: left ::: report
+place 1 2 east ::: move ::: right ::: report
+place 1,2,NNN ::: move ::: left ::: report
+test ::: invalid ::: report
+report :::
+test ::: invalid ::: 
