@@ -10,6 +10,7 @@ The details of the implementation are here - [https://github.com/ie/Code-Challen
 
 **Code details**
 - The main class of the simulator is - **com.ie.PacmanSimulator.java**
+- The simulator takes a maximum of **30** commands
 
 **Test details**
 - There are unit tests for both positive and negative scenarios
