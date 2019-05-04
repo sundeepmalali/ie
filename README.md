@@ -22,6 +22,7 @@ The details of the implementation are here - [https://github.com/ie/Code-Challen
 * Download the code
     * git clone https://github.com/sundeepmalali/ie.git
 * Execute the following commmands:
+    * cd ie
     * mvn clean install
     * java -jar target/pacman-0.0.1-SNAPSHOT.jar
 
